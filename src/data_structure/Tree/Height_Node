@@ -1,0 +1,32 @@
+# In this set we are gonna learn about number of nodes and height of tree relationship in different scenrios
+# min nodes = h +1
+# max nodes = 2^(h+1) -1 
+# min nodes on any level = 1
+# max nodes on any level (l) = 2^l ( levels = 0,1,2,3.....)
+# max height with n nodes = N-1
+# min height with n nodes = log2(n+1)-1
+# no. of nodes with deg 0 = deg 2 + 1
+# for perfact binary tree l = i +1
+
+# Strict / Full Binary tree : 
+    # Nmax = 2^(h+1) -1
+    # Nmin = 2*h +1
+    # Hmax = (N-1) // 2
+    # Hmin = log2(n+1)-1
+    # L = I+1 ( as no deg 1 so all internal are degree 2 only)
+
+# m-ary Tree:
+    # max degree = m ( max children)
+    # Nmin = h +1
+    # Nmax = (m^(h+1) -1) // (m-1)
+    # Hmin = logm(n(m-1) + 1) - 1
+    # Hmax = n -1
+
+# strict m-ary tree:
+    # degree = 0/m
+    # Nmin = m*h +1
+    # Nmax = (m^(h+1) -1) // (m-1)
+    # Hmin = logm(n(m-1) +1)-1
+    # Hmax = (n-1) // m
+    # L = (m-1)*I + 1
+
