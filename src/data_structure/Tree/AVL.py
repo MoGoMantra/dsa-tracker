@@ -2,7 +2,7 @@ from collections import deque
 
 class Node:
     def __init__(self, data: int):
-        self.data:   int           = data
+        self.data:  int  = data
         self.left= None
         self.right= None
         self.height = 1      # height of subtree rooted here
